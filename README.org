@@ -1,0 +1,60 @@
+* alert-play
+
+** Description
+
+This extension adds an emacs alert notifier which plays a sound file
+
+** Usage
+
+In any situation where one would normally call '(alert...)', 
+
+** Configuration
+
+Before first use:
+
+*** Set a sound player command
+
+*** Set a default sound
+
+*** Set a default volume
+
+*** Maybe test things once or twice
+
+** Customization
+
+*** Included in the box:
+
+1. :default 
+
+2. :major-mode
+
+3. :alert-data
+
+*** Adding your own:
+
+1. Add a Rule Keyword
+
+2. Add a Keyword Resolver
+
+** Installation
+
+This package is available from [[https://melpa.org/#/][MELPA]] and is an add-on for [[https://github.com/jwiegley/alert][alert]]. There is
+documentation at those links which explains how to set your emacs up
+to use this package.
+
+Once those work, you can install ’alert-play’ and its dependencies
+using:
+
+#+BEGIN_EXAMPLE
+  M-x package-install RET alert-play RET
+#+END_EXAMPLE
+
+** Installing from the Git Repository
+
+Use Git to clone the alert-play repository:
+
+#+BEGIN_SRC shell-script
+  $ git clone https://github.com/emacswatcher/alert-play.git /your/desired/source/path
+  $ cd /your/desired/source/path/alert-play
+#+END_SRC
+
